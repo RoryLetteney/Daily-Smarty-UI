@@ -1,33 +1,34 @@
-
+@import "variables";
+@import "search-bar";
 
 html {
-    font-size: 62.5%;
-    font-family: 'Lato';
+  font-size: 62.5%;
+  font-family: "Lato";
 }
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .app-wrapper {
-    display: grid;
-    justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 
 .home {
-    display: grid;
-    align-content: space-around;
-    justify-items: center;
-    // grid-template-rows: 1fr 2fr 1fr;
+  display: grid;
+  align-content: space-around;
+  justify-items: center;
+  // grid-template-rows: 1fr 2fr 1fr;
 
-    height: 100vh;
-    width: 66vw;
+  height: 100vh;
+  width: 66vw;
 }
 
 .post-topic {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
