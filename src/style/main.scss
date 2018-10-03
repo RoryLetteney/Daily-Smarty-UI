@@ -1,6 +1,9 @@
 @import "variables";
+@import "mixins";
+@import "home";
 @import "search-bar";
 @import "recent-posts";
+@import "results";
 
 html {
   font-size: 62.5%;
@@ -16,7 +19,7 @@ html {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .app-wrapper {
@@ -24,19 +27,10 @@ ul {
   justify-content: center;
 }
 
-.home {
-  display: grid;
-  align-content: space-around;
-  // grid-template-rows: 1fr 2fr 1fr;
-
-  height: 100vh;
-  width: 66vw;
-}
-
 .logo-main,
 .recent-posts {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 
 .post-topic {
