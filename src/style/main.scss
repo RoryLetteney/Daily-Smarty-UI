@@ -1,5 +1,6 @@
 @import "variables";
 @import "search-bar";
+@import "recent-posts";
 
 html {
   font-size: 62.5%;
@@ -14,6 +15,10 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+    list-style: none;
+}
+
 .app-wrapper {
   display: grid;
   justify-content: center;
@@ -22,7 +27,6 @@ html {
 .home {
   display: grid;
   align-content: space-around;
-  justify-items: stretch;
   // grid-template-rows: 1fr 2fr 1fr;
 
   height: 100vh;
