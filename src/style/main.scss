@@ -22,11 +22,17 @@ html {
 .home {
   display: grid;
   align-content: space-around;
-  justify-items: center;
+  justify-items: stretch;
   // grid-template-rows: 1fr 2fr 1fr;
 
   height: 100vh;
   width: 66vw;
+}
+
+.logo-main,
+.recent-posts {
+    display: grid;
+    justify-items: center;
 }
 
 .post-topic {
