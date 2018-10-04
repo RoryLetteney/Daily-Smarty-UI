@@ -6,8 +6,17 @@ import Post from './post';
 class ResultsPosts extends Component {
 
     renderPosts() {
+        var n = 0;
+        const getLastPost = this.props.posts.map(post => {
+          n++;
+        })
         const posts = this.props.posts.map((post, index) => {
-            return <Post type="result" key={index} {...post}/>
+            if (index == n - 1) {
+              return <Post className="last-post" type="result" key={index} {...post}/>
+            } else {
+              return <Post className="" type="result" key={index} {...post}/>
+            }
+            
         })
         return posts;
     }
