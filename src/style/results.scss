@@ -41,13 +41,15 @@
   }
 
   &__links {
-    // display: flex;
+    display: flex;
   }
 }
 
 .post-link {
     min-height: 7rem;
     display: flex;
+    flex-basis: 20.5rem;
+    margin-right: 3.7rem;
     &__box {
         min-width: 7rem;
         background-color: $color-gray-three;

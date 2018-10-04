@@ -32,3 +32,9 @@ ul {
   display: grid;
   justify-items: center;
 }
+
+.no-content {
+  color: $color-gray-one;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
