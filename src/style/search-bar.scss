@@ -39,6 +39,10 @@
     input {
       height: 11.8rem;
       font-size: 4rem;
+      @media screen and (max-width: 60rem) {
+        font-size: 2.3rem;
+        height: 5.9rem;
+      }
     }
   }
 
